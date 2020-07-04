@@ -1,0 +1,12 @@
+
+----
+Tested on RHEL 7.9 and 8.2
+----
+
+----
+yum -y install postfix cyrus-sasl-plain mailx
+
+systemctl restart postfix
+
+systemctl enable postfix
+----
